@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국어 어휘 게임 목록</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 24px 16px;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    text-align: center;
+    color: rgba(255,255,255,0.85);
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+  .level-section {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+  .level-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a3f8f;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ede9fe;
+  }
+  .game-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .game-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: #f8f7ff;
+    border: 2px solid #ddd6fe;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.2s;
+  }
+  .game-link:hover {
+    background: #ede9fe;
+    transform: translateY(-2px);
+  }
+  .game-link .arrow {
+    color: #7c3aed;
+    font-size: 18px;
+  }
+  .empty-note {
+    color: #999;
+    font-size: 13px;
+    padding: 8px 4px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📚 한국어 어휘 게임</h1>
+  <div class="subtitle">글로벌한국어 · 급별 어휘 짝맞추기</div>
+
+  <div class="level-section">
+    <div class="level-title">1B</div>
+    <div class="game-list">
+      <a class="game-link" href="1B_5-1.html">
+        <span>5-1 어휘 게임</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="game-link" href="1B_6-1_vocab_game.html">
+        <span>6과 1항 어휘 게임 (신체와 건강)</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="level-section">
+    <div class="level-title">4A</div>
+    <div class="game-list">
+      <div class="empty-note">아직 등록된 게임이 없습니다.</div>
+    </div>
+  </div>
+
+  <div class="level-section">
+    <div class="level-title">4B</div>
+    <div class="game-list">
+      <a class="game-link" href="4B_5-2_vocab_game.html">
+        <span>5과 2항 어휘 게임 (과학기술과 미래)</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
